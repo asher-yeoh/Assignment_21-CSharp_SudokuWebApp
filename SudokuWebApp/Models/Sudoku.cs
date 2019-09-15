@@ -9,6 +9,7 @@ namespace SudokuWebApp.Models
     public class Sudoku
     {
         public string board;
+
         public Sudoku(string board)
         {
             this.board = board;

@@ -12,9 +12,10 @@ namespace SudokuWebApp.Controllers
     {
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public string Get()
         {
-            return new string[] { "value1", "value2" };
+
+            return "POST with api/sudoku";
         }
 
         // GET api/values/5

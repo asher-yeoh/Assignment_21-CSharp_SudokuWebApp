@@ -13,7 +13,6 @@ namespace SudokuWebApp.Controllers
     [ApiController]
     public class SudokuController : ControllerBase
     {
-
         // POST api/sudoku
         [HttpPost]
         public Sudoku SolveSudoku([FromBody] Sudoku unsolved)
